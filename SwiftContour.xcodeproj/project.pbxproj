@@ -8,25 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		4CB3CA85267EE16000A6C75B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3CA84267EE16000A6C75B /* AppDelegate.swift */; };
-		4CB3CA87267EE16000A6C75B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3CA86267EE16000A6C75B /* GameScene.sks */; };
-		4CB3CA89267EE16000A6C75B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3CA88267EE16000A6C75B /* Actions.sks */; };
-		4CB3CA8B267EE16000A6C75B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3CA8A267EE16000A6C75B /* GameScene.swift */; };
 		4CB3CA8D267EE16000A6C75B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3CA8C267EE16000A6C75B /* ViewController.swift */; };
 		4CB3CA8F267EE16200A6C75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3CA8E267EE16200A6C75B /* Assets.xcassets */; };
 		4CB3CA92267EE16200A6C75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3CA90267EE16200A6C75B /* Main.storyboard */; };
+		4CB3CA9C267EE17B00A6C75B /* DistanceField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3CA9B267EE17B00A6C75B /* DistanceField.swift */; };
+		4CB3CA9F267EFBA100A6C75B /* Vectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3CA9E267EFBA000A6C75B /* Vectors.swift */; };
+		4CB3CAA2267F023100A6C75B /* Swizzles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3CAA1267F023100A6C75B /* Swizzles.swift */; };
+		4CB3CAA5267F07F400A6C75B /* TriContour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3CAA4267F07F400A6C75B /* TriContour.swift */; };
+		4CB3CAA8267F0C0700A6C75B /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3CAA7267F0C0700A6C75B /* Functional.swift */; };
+		4CB3CAAB267F296700A6C75B /* ClosedPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3CAAA267F296700A6C75B /* ClosedPath.swift */; };
+		4CB3CAB1267F986100A6C75B /* Matrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3CAB0267F986100A6C75B /* Matrices.swift */; };
+		4CB3CAB42680080F00A6C75B /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3CAB32680080F00A6C75B /* Path.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4CB3CA81267EE16000A6C75B /* SwiftContour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftContour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB3CA84267EE16000A6C75B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CB3CA86267EE16000A6C75B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		4CB3CA88267EE16000A6C75B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		4CB3CA8A267EE16000A6C75B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		4CB3CA8C267EE16000A6C75B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CB3CA8E267EE16200A6C75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CB3CA91267EE16200A6C75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CB3CA93267EE16200A6C75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB3CA94267EE16200A6C75B /* SwiftContour.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftContour.entitlements; sourceTree = "<group>"; };
+		4CB3CA9B267EE17B00A6C75B /* DistanceField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceField.swift; sourceTree = "<group>"; };
+		4CB3CA9E267EFBA000A6C75B /* Vectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vectors.swift; sourceTree = "<group>"; };
+		4CB3CAA1267F023100A6C75B /* Swizzles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swizzles.swift; sourceTree = "<group>"; };
+		4CB3CAA4267F07F400A6C75B /* TriContour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriContour.swift; sourceTree = "<group>"; };
+		4CB3CAA7267F0C0700A6C75B /* Functional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functional.swift; sourceTree = "<group>"; };
+		4CB3CAAA267F296700A6C75B /* ClosedPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosedPath.swift; sourceTree = "<group>"; };
+		4CB3CAB0267F986100A6C75B /* Matrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrices.swift; sourceTree = "<group>"; };
+		4CB3CAB32680080F00A6C75B /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +70,19 @@
 			isa = PBXGroup;
 			children = (
 				4CB3CA84267EE16000A6C75B /* AppDelegate.swift */,
-				4CB3CA86267EE16000A6C75B /* GameScene.sks */,
-				4CB3CA88267EE16000A6C75B /* Actions.sks */,
-				4CB3CA8A267EE16000A6C75B /* GameScene.swift */,
 				4CB3CA8C267EE16000A6C75B /* ViewController.swift */,
 				4CB3CA8E267EE16200A6C75B /* Assets.xcassets */,
 				4CB3CA90267EE16200A6C75B /* Main.storyboard */,
 				4CB3CA93267EE16200A6C75B /* Info.plist */,
 				4CB3CA94267EE16200A6C75B /* SwiftContour.entitlements */,
+				4CB3CA9B267EE17B00A6C75B /* DistanceField.swift */,
+				4CB3CA9E267EFBA000A6C75B /* Vectors.swift */,
+				4CB3CAA1267F023100A6C75B /* Swizzles.swift */,
+				4CB3CAA4267F07F400A6C75B /* TriContour.swift */,
+				4CB3CAA7267F0C0700A6C75B /* Functional.swift */,
+				4CB3CAAA267F296700A6C75B /* ClosedPath.swift */,
+				4CB3CAB0267F986100A6C75B /* Matrices.swift */,
+				4CB3CAB32680080F00A6C75B /* Path.swift */,
 			);
 			path = SwiftContour;
 			sourceTree = "<group>";
@@ -129,9 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CB3CA87267EE16000A6C75B /* GameScene.sks in Resources */,
 				4CB3CA8F267EE16200A6C75B /* Assets.xcassets in Resources */,
-				4CB3CA89267EE16000A6C75B /* Actions.sks in Resources */,
 				4CB3CA92267EE16200A6C75B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CB3CA8D267EE16000A6C75B /* ViewController.swift in Sources */,
-				4CB3CA8B267EE16000A6C75B /* GameScene.swift in Sources */,
+				4CB3CAA5267F07F400A6C75B /* TriContour.swift in Sources */,
+				4CB3CAAB267F296700A6C75B /* ClosedPath.swift in Sources */,
+				4CB3CA9C267EE17B00A6C75B /* DistanceField.swift in Sources */,
+				4CB3CAA2267F023100A6C75B /* Swizzles.swift in Sources */,
+				4CB3CAB1267F986100A6C75B /* Matrices.swift in Sources */,
+				4CB3CA9F267EFBA100A6C75B /* Vectors.swift in Sources */,
+				4CB3CAA8267F0C0700A6C75B /* Functional.swift in Sources */,
+				4CB3CAB42680080F00A6C75B /* Path.swift in Sources */,
 				4CB3CA85267EE16000A6C75B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
